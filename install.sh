@@ -8,10 +8,6 @@
 distribution=$(lsb_release -i | awk '{print $3}')
 current_shell=$(echo $SHELL | awk -F '/' '{print $NF}')
 
-echo "Distribution: $distribution"
-echo "Shell: $current_shell"
-echo "XDG_CONFIG_HOME: $XDG_CONFIG_HOME"
-
 case $distribution in
 	Arch)
 		sudo pacman -Syu --needed --noconfirm \

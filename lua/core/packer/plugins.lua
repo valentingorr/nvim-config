@@ -1,7 +1,6 @@
 return {
 	"jparise/vim-graphql",
 	{ "s1n7ax/nvim-window-picker", tag = "v2.*" },
-	"wakatime/vim-wakatime",
 	"ryanoasis/vim-devicons",
 	"gelguy/wilder.nvim",
 	"kevinhwang91/nvim-hlslens",

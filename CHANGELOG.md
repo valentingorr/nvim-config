@@ -1,2 +1,2 @@
 # What's new ?
-- implementing an install script.
+- updating an install script.
